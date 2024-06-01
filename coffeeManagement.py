@@ -3,7 +3,7 @@ class Cafe:
 
     def __init__(self):
         self.name= input("Please enter your name==>");
-    def great(self):
+    def greet(self):
         print(f"Hello {self.name}, Welcome to Python Cafe\n Make your day with Taste\n Python Cafe\n Remove stress \n best by TASTE")
         print("What can Python cafe serve you? Feel free to choose")
         
@@ -40,5 +40,5 @@ class Cafe:
         print(f"\nPython cafe is happy to serve {self.name}.\n {self.name}'s had order of Rs {price}\n ")
 
 user = Cafe()
-user.great()
+user.greet()
 user.order()
